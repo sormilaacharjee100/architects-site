@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1348px;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    background-color: rgba(255, 144, 14, 0.1);;
+    height: 850px;
+    
+    justify-content: center;
+
+    
+}
+.container{
+    width: 1000px;
+    
+    
+    
+}
+
+/*---------------header css-------------------*/
+
+.head-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+.head-info .logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #131313;
+    font-weight: 700;
+    width: 320px;
+   
+}
+
+.menu ul{
+    display: flex;
+    
+    
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 30px;
+    
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+/*--------------banner css star---------------------*/
+.brand-start {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.brand-content {
+    text-align: center;
+}
+.brand-content h3{
+     font-size: 40px;
+     font-weight: 700;
+     color: #131313;
+     margin: 10px auto;
+     width: 350px;
+     
+}
+.brand-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    width: 600px;
+    margin: 10px auto;
+    
+
+}
+.brand-content button{
+    padding: 15px 15px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    background-color: #FF900E;
+    justify-items: center;
+ 
+}
+.brand-content button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+}
+.brand .brand-img{
+    width: 800px;
+   margin-top: 25px;
+}
+.brand .brand-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*------------team  details css start--------------*/
+.team-details{
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-top: 25px;
+}
+ .team-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 10px
+}
+.team-content{
+    text-align: start;
+}
+.team-content h3{
+    color: #131313;
+    font-size: 35px;
+    margin: 0 auto;
+}
+.team-content h3 span{
+    color: #FF900E;
+    font-size: 35px;
+}
+.team-content p{
+    width: 360px;
+    margin: 20px 0;
+}
+.team-content button{
+    padding: 15px 15px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    background-color: #FF900E;
+    justify-items: center;
+ 
+}
+.team-content button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+}
+.team-banner .team-img{
+    width: 200px;
+    height: 200px;
+}
+.team-banner .team-img img{
+    width: 100%;
+}
+
+/*-----------feature start-----------------*/
+.feature {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.feature-content{
+    text-align: start;
+    padding: 15px 35px;
+}
+.feature-content h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.feature-content p{
+    width: 600px;
+}
+ .feature-img{
+    height: 500px;
+    width: 350px;
+}
+ .feature-img img{
+    width: 100%;
+}
+
+.box-content{
+    padding: 5px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.feature-img button{
+    padding: 25px 25px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    background-color: #FF900E;
+    justify-items: center;
+   margin-top: -150px;
+   margin-left: -20px;
+}
+.feature-img button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+}
+
+/*----------------box items css start-------------------*/
+.box{
+    margin: 0 auto;
+}
+.box-title{
+    margin: 20px auto;
+}
+.box-title h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.box-title  p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #727272;
+    width: 400px;
+    margin: 0px ;
+}
+.box-items{
+    display: flex;
+    justify-content: space-around;
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+.single-box{
+    border: 1px solid #FF900E;
+    padding: 25px 25px;
+    text-align: center; 
+    transition: .3s;
+
+    
+}
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
+.box-info h3{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*-----------Blog css start--------------------*/
+.blog-items{
+    margin: 0 auto;
+}
+.blog-title{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.blog-title h3{
+    font-size: 40px;
+}
+.blog-title p{
+   
+   text-align: center;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.blog-info{
+    text-align: start;
+}
+.single-blog .blog-img{
+   margin-left: 10px;
+    
+}
+.single-blog .blog-img img{
+    width: 100%;
+    ;
+}
+/*-----------Blog css end--------------------*/
+
+/*-----------Sponspors css start--------------------*/
+
+.sponspors{
+    margin: 25px auto;
+}
+.sponspors-title{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    justify-items: center;
+}
+.sponspors-title h3{
+    font-size: 30px;
+}
+.sponspors-title p{
+    text-align: center;
+}
+.patner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/*-------------Footer css-----------------*/
+footer{
+    margin: 0 auto;
+    background-color: #FFF4E7;
+}
+footer p{
+    text-align: center;
+    color: blue;
+    padding: 30px 30px;
+}
+
+
+/*--------------Responsive design-------------*/
+
+/*--------------For mobile device----------------*/
+@media screen and (max-width:576px) {
+   body{
+    width: 100%;
+   }
+    .container{
+        
+      width: 100%;
+    }
+    header{
+        height: 650px;
+        
+    }
+    .head-info{
+        flex-direction: column;
+    }
+    .brand .brand-img{
+        width: 430px;
+        height: 430px;
+    }
+    .brand .brand-img img{
+        width: 100%;
+    }
+    .brand-content h3{
+        font-size: 25px;
+    }
+    .brand-content p{
+        width: 350px;
+    }
+    .team-details{
+        flex-direction: column;
+        
+    }
+    .team-content{
+        margin-top: 10px;
+    }
+    .team-content h3{
+        font-size: 25px;
+    }
+    .feature{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .feature h3{
+        font-size: 25px;
+    }
+    .feature p{
+        width: 400px;
+    }
+   
+    .box-content{
+        width: 300px;
+        margin-left: 60px;
+        margin-top: 8px;
+        text-align: center;
+    }
+    
+    .box-content p{
+        width: 300px
+    }
+    .feature-img{
+        height: 400px;
+    width: 300px;
+    margin-left: 100px;
+
+    }
+     .box{
+        margin-top: 100px;
+     }
+    .box-title{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .box-title p{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .single-box{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .box-items{
+           flex-direction: column;
+            animation-duration: none  !important;
+          animation-name: none !important;
+          animation-iteration-count: none !important;
+          margin: 0 auto;
+        }
+
+        .blog{
+            flex-direction: column;
+            margin: 0 auto;
+            align-items: center;
+    }
+    .single-blog .blog-img{
+        width: 200px;
+        
+         
+     }
+     .single-blog .blog-img img{
+         width: 100%;
+         
+     }
+     .blog-info p{
+        width: 300px;
+     }
+     .patner {
+        flex-direction: column;
+        align-items: center;
+     }
+
+    };
+    
+    

@@ -357,6 +357,9 @@ footer p{
     .brand-content p{
         width: 350px;
     }
+    .team-banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .team-details{
         flex-direction: column;
         
